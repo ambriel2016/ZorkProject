@@ -27,7 +27,7 @@ public class Room7 {
             room = 6;
         } else if (input == 4) {
             room = 4;
-        } else if (input == 8 && random.nextInt(100) + 1 >= 75){ // && /* random num 26-100) */
+        } else if (input == 8 && random.nextInt(100) + 1 >= 75){ // && /* random num 25-100) */
             room = 8;
         } else {
             System.out.println("Please enter a valid room number.");

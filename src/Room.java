@@ -4,35 +4,81 @@ import java.util.Scanner;
 
 // room number needs to be declared and initialized to 1, maybe on gameStart?
 
-public class Room {
-    HashMap<Integer, String> items = new HashMap<Integer, String>();
-    HashMap<Integer, String> roomNum = new HashMap<Integer, String>();
-    HashMap<Integer, String[]> chooseRoom = new HashMap<Integer, String[]>();
+public void room4() {
+        this.roomName.put(4, "Kitchen.");
+        this.items.put(4, "Bats");
 
-    room2(roomnum1)
 
-    public  int room1(int roomNum){
-        HashMap<Integer, String> roomName = new HashMap<Integer, String>();
-        roomName.put(1, "Foyer");
-        this.items.put(1, "Dead Scorpion");
+        System.out.println("You have entered the: " + roomName.get(4));
+        System.out.println("The item is : " + items.get(4));
 
-        System.out.println("You have entered room: " + roomName);
-        System.out.println("The item is : " + items.get(1));
-        return roomNum;
-
-        chooseRoom.put("N")
-                input = sc.nextInt();
-                if(input = 2){
-                   room = 2;
-                } else {
-                    System.out.println("Please enter a valid room number.");
-                }
-
+        while (start) {
+        System.out.println("Enter what room you want to enter: \n1.Front Room\n2. Parlor");
+        int input = scan.nextInt();
+        if (input == 1) {
+            System.out.printlin("You are going to the Front Room")
+            room2();
+        }else if(input == 2){
+            System.out.println("You are going to the Parlor")
+            room7();
+        }
+        else if (input == 0) {
+        exit();
+        start = false;
+        } else {
+        System.out.println("Enter valid input");
+        continue;
+        }
+     }
 }
-       public int room2(int roomnum)
+public void room5() {
+        this.roomName.put(5, "Dining room");
+        this.items.put(5, "Dust Empty Box");
 
 
+        System.out.println("You have entered the: " + roomName.get(5));
+        System.out.println("The item is : " + items.get(5));
 
-
+        while (start) {
+        System.out.println("Enter what room you want to enter: \n1. Library");
+        int input = scan.nextInt();
+        if (input == 1) {
+        System.out.printlin("You are going to the Library")
+        room2();
+        }else if (input == 0) {
+        exit();
+        start = false;
+        } else {
+        System.out.println("Enter valid input");
+        continue;
+        }
+     }
    }
-}
+public void room6() {
+        this.roomName.put(6, "Vault");
+        this.items.put(6, "3 Walking Skeletons");
+
+        Scanner sc = new Scanner(System.in);
+        Random random = new Random();
+
+        System.out.println("You have entered the: " + roomName.get(6));
+        System.out.println("The item is : " + items.get(6));
+
+        while (start) {
+        System.out.println("Enter what room you want to enter: \n1. Parlor\n2. Secret Room");
+        int input = scan.nextInt();
+        if (input == 1 ) {
+        System.out.printlin("You are going to the Parlor")
+        room2();
+        }else if(input == 2 && random.nextInt(100) + 1 >= 75){
+        System.out.println("You are going to the Secret Room")
+        room7();
+        }else if (input == 0) {
+        exit();
+        start = false;
+        } else {
+        System.out.println("Enter valid input");
+        continue;
+        }
+        }
+
