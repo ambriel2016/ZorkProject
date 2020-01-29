@@ -51,7 +51,7 @@ public class Room {
         }
     }
 
-    public int room2(){
+    public void room2(){
         this.roomName.put(2, "room 2");
         this.items.put(2, "Dead Scorpion");
 
@@ -72,10 +72,11 @@ public class Room {
                 continue;
             }
         }
-        }
+
     }
 
-    public int room3() {
+
+    public void room3() {
         this.roomName.put(3, "youre in room 3");
         this.items.put(3, "Dead Scorpion");
 
