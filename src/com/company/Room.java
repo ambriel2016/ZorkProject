@@ -52,7 +52,7 @@ public class Room {
     }
 
     public void room2(){
-        this.roomName.put(2, "room 2");
+        this.roomName.put(2, "Front Room");
         this.items.put(2, "Dead Scorpion");
 
 
@@ -77,7 +77,7 @@ public class Room {
 
 
     public void room3() {
-        this.roomName.put(3, "youre in room 3");
+        this.roomName.put(3, "Library");
         this.items.put(3, "Dead Scorpion");
 
 
