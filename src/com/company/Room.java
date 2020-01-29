@@ -30,15 +30,13 @@ public class Room {
     public void room1() {
         this.roomName.put(1, "Foyer");
         this.items.put(1, "Dead Scorpion");
-
-
         System.out.println("You have entered room: " + roomName.get(1));
         System.out.println("The item is : " + items.get(1));
         while (start) {
             System.out.println("Enter what room you want to enter:\n1. Front Room\n0. Exit");
             input = scan.nextInt();
             if (input == 1) {
-//                room2();
+                room2();
             } else if (input == 0) {
                 exit();
                 start = false;
