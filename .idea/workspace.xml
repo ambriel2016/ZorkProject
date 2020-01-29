@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e5050b42-7939-4b97-9a73-473e2d43403d" name="Default Changelist" comment="">
 <<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Room7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Room7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+=======
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/company/Room.java" afterDir="false" />
@@ -15,6 +20,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Room.java" afterDir="false" />
 >>>>>>> 24064a5d194130fc5b1688ff5f417df4d6557878
+>>>>>>> 6cf4d6ea8a08a789bb62148c405747f198a7e958
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,8 +89,12 @@
       <workItem from="1580316071151" duration="6623000" />
 =======
       <workItem from="1580316071151" duration="1281000" />
+<<<<<<< HEAD
+      <workItem from="1580318721755" duration="7669000" />
+=======
       <workItem from="1580318721755" duration="3753000" />
 >>>>>>> 24064a5d194130fc5b1688ff5f417df4d6557878
+>>>>>>> 6cf4d6ea8a08a789bb62148c405747f198a7e958
     </task>
     <servers />
   </component>
