@@ -4,6 +4,8 @@
     <list default="true" id="e5050b42-7939-4b97-9a73-473e2d43403d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ZORK-/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZORK-/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZORK-/com/company/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZORK-/com/company/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Room.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,6 +30,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ArrayListInfoStudentLesson" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunDashboard">
@@ -69,6 +72,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580316063745</updated>
+      <workItem from="1580334413491" duration="669000" />
+      <workItem from="1580391969546" duration="14334000" />
     </task>
     <servers />
   </component>
